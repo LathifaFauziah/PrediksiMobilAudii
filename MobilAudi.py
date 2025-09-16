@@ -1,7 +1,7 @@
 import streamlit as st
 
 # Judul aplikasi
-st.title("🚗 Prediksi Harga Mobil Audi (Rumus Sederhana)")
+st.title("🚗 Prediksi Harga Mobil Audi")
 
 # ===== Gambar =====
 st.image('Audiimage.jpeg', use_container_width=True)
@@ -9,16 +9,20 @@ st.image('Audiimage.jpeg', use_container_width=True)
 # ===== Deskripsi =====
 st.markdown(
     """
-    Audi merupakan salah satu produsen mobil premium asal Jerman yang dikenal dengan
-    kombinasi desain elegan, teknologi canggih, serta performa bertenaga. Sebagai bagian
+    <div style="text-align: justify;">
+    Audi merupakan salah satu produsen mobil premium asal Jerman yang dikenal dengan 
+    kombinasi desain elegan, teknologi canggih, serta performa bertenaga. Sebagai bagian 
     dari Volkswagen Group, Audi telah menjadi pionir dalam menghadirkan inovasi di dunia otomotif.
-
-    Dari mobil kompak hingga supercar, Audi selalu menghadirkan pengalaman berkendara yang
-    memadukan kenyamanan, keamanan, dan kekuatan mesin. Bahkan dalam pasar mobil bekas,
-    Audi tetap menjadi pilihan menarik berkat kualitas material, kabin mewah, dan teknologi
-    yang relevan hingga kini. Dengan perawatan yang baik, mobil Audi bekas mampu memberikan
+    <br><br>
+    Dari mobil kompak hingga supercar, Audi selalu menghadirkan pengalaman berkendara yang 
+    memadukan kenyamanan, keamanan, dan kekuatan mesin. Bahkan dalam pasar mobil bekas, 
+    Audi tetap menjadi pilihan menarik berkat kualitas material, kabin mewah, dan teknologi 
+    yang relevan hingga kini. Dengan perawatan yang baik, mobil Audi bekas mampu memberikan 
     nilai investasi yang tinggi sekaligus kepuasan berkendara jangka panjang.
-    """
+    </div>
+    <br><br>
+    """,
+    unsafe_allow_html=True
 )
 
 # Input user
